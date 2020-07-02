@@ -1,5 +1,5 @@
 # k8s-via-ansible
-Kubernetes installation with Ansible on CentOO7
+Kubernetes installation with Ansible on CentOS7
 
 Change ip addresses in "hosts" and "env_variables" files! 
  
