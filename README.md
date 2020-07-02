@@ -4,6 +4,7 @@ Kubernetes installation with Ansible on CentOS7
 Change ip addresses in "hosts" and "env_variables" files! 
 
 ps. Execute the following command on all nodes:
+
 ansible -a " yum -y install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm " -i hosts all -b
 
 1. To create a master run:
